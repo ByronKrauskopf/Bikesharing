@@ -10,7 +10,7 @@ The purpose of this analysis is to determine who the primary user groups of the 
 
 ## Results
 
-
+### User Typer
 
 ## Summary 
 
