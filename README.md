@@ -2,7 +2,7 @@
 
 ## Overview of the Analysis
 
-The purpose of this analysis is to determine who the primary user groups of the NYC CitiBike service are. It will also idenitfy what user groups are under-represented. This will allow us to ensure that the service is robust enough to support the continued use of the primary groups, while providing insights for expansion and targeted marketing to the smaller user groups. This analysis will focus on the following user details:
+The purpose of this analysis is to determine who the primary user groups of the NYC CitiBike service are. It will also identify what user groups are under-represented. This will allow us to ensure that the service is robust enough to support the continued use of the primary groups, while providing insights for expansion and targeted marketing to the smaller user groups. This analysis will focus on the following user details:
   - User type: Subscriber vs Customer
   - Gender
   - Age
@@ -35,12 +35,12 @@ There is a slight negative correlation between the age and the average length of
 ![Average Trip Duration by Age](/images/average_trip_duration_by_age.png)
 
 ### Trips by Weekday per Hour
-The heaviest usage falls between 7-10am and 5-6pm Monaday through Friday which corresponds with morning and evening rush hours.  
+The heaviest usage falls between 7-10am and 5-6pm Monday through Friday. These correspond with morning and evening rush hours indicating heavy usage for commuting.  
 
 ![Trips by Weekday per Hour](/images/trips_by_weekday_per_hour.png)
 
 ### Trips by Gender (Weekday per Hour)
-The breakdown by hour and gender confirms the previous findings that men are the highest users and the the heaviset use times correspond with rush hours.
+The breakdown by hour and gender confirm the previous findings that men are the highest users, and the heaviest use times correspond with rush hours.
 
 ![Trips by Gender (Weekday per Hour)](/images/trips_by_gender_weekday_per_hour.png)
 
@@ -50,18 +50,23 @@ Customer usage is largely uniform across the days of the week with slightly high
 ![User Trips by Gender by Weekday](/images/user_trips_by_gender_by_weekday.png)
 
 ### Top Starting Locations
-The highest number of starting locations are clustered in downtown and midtown Manhattan with some smaller useage in the nearest edges of the outer burroughs. Since most users are subscribers it is likely that this concentration indicates where the majority of users live and or work.
+The highest number of starting locations are clustered in downtown and midtown Manhattan with some smaller usage in the nearest edges of the outer boroughs. Since most users are subscribers it is likely that this concentration indicates where the majority of users live and or work.
 
 ![Top Starting Locations](/images/top_starting_locations.png)
 
 ### Top Ending Locations
-The highest number of ending locatoins are in the same areas as the starting locations indicating that the majority of trips are of short distance. This is consistant with the short average use times identified earlier. 
+The highest number of ending locations are in the same areas as the starting locations indicating that the majority of trips are of short distance. This is consistent with the short average use times identified earlier. 
 
 ![Top Ending Locations](/images/top_ending_locations.png)
 
 ## Summary 
 
-- additional vizs
-  - User type by gender
-  - Start location by user type
-  - End location by user type
+Based on this analysis, the primary user group of the NYC CitiBike service are male subscribers, living in Downtown and Midtown Manhattan, and using the bikes for their morning and evening short distance commutes to work. To maintain support for this group we need to ensure that sufficient numbers of bikes are available in these core locations during weekday mornings and evenings to support the usage surges.
+
+Under-represented groups that can be targeted for expansion of the service are women, casual customers (possibly tourists), and people living in Upper Manhattan and the outer boroughs.
+
+To expand this analysis, there are a number of additional visualizations that can be developed.
+1) A breakdown of the user type by gender.
+2) A map of starting locations by user type to identify tourist and commuter hotspots.
+3) A map of the ending locations by user type to further refine tourist and commuter hotspot identification.
+
